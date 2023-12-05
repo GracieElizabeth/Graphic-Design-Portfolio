@@ -43,6 +43,17 @@ hr{ /*Changes all the hr*/
     width: 4%;
 }
 
+img{
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+
+    
+}
+
 img::selection{
     background: transparent;
 }
@@ -64,6 +75,24 @@ a:hover{
     position: relative; /*Position relative to where it would have been initially*/
     padding-top: 100px;
 }
+
+.header-menu {
+    overflow: hidden;
+    background-color: #dce2fc;
+    padding: 20px 10px;
+}
+
+
+.header-right { /* Float the link section to the right */
+    float: right;
+}
+
+.logo{ /* Size logo and keep left side */
+    float: left;
+    height: 50px;
+    width: 50px;
+}
+
 
 .middle-container{
     margin: 100px 0;
@@ -88,6 +117,11 @@ a:hover{
     max-block-size: 300px;
 }
 
+.design-images{
+    max-width: 100%;
+    height: auto;
+}
+
 .intro{
     width: 30%;
     margin: auto;
@@ -106,7 +140,7 @@ a:hover{
     margin-right: 35px;
 }
 
-.design-img{
+.other-img{
     width: 30%;
     float: right;
     margin-left: 30px;
@@ -129,7 +163,7 @@ a:hover{
     margin: 40px auto 60px;
 }
 
-.footer-link{
+.links{
     color:#6C4AB6;
 }
 
