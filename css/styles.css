@@ -197,3 +197,10 @@ a:hover{
     background-image: linear-gradient(to bottom, #7a64ad, #412f6e);
     text-decoration: none;
   }
+
+  #my-experience{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    padding: 0px 20px;
+  }
