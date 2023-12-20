@@ -16,10 +16,6 @@
       background-position: 0% 50%;
     }
   }
-  
-::selection{
-    background: #c6b4ee;
-}
 
 body{
     font-family: 'Merriweather', serif;
@@ -170,7 +166,7 @@ a:hover{
 }
 
 .bottom-cloud{
-    position: absolute;
+    position: static;
     left: 250px;
     bottom: 300px;
 }
