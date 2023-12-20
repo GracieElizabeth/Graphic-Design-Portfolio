@@ -17,6 +17,11 @@
     }
   }
 
+/* Makes text highlight pastel purple */
+::selection{
+    background: #c6b4ee;
+}
+
 body{
     font-family: 'Merriweather', serif;
     margin: 0;
